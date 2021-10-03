@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "Hanif Rahman",
+        "age": 30,
+        "img": "https://thumbs.dreamstime.com/b/attractive-man-formal-wear-attractive-man-formal-wear-white-background-107684728.jpg",
+        "designation": "Senior Lecturer",
+        "qualification": "M.S.C in Math",
+        "salary": 10000
+    },
+    {
+        "id": 2,
+        "name": "Mahin Khan",
+        "age": 35,
+        "img": "https://tse4.mm.bing.net/th?id=OIP.xr862bveWunK0w_LpfMIogHaLp&pid=Api&P=0&w=300&h=300",
+        "designation": " Lecturer",
+        "qualification": "M.S.C in physics",
+        "salary": 20000
+    },
+    {
+        "id": 3,
+        "name": " MD.Sadek ",
+        "age": 20,
+        "img": "https://img.thrfun.com/img/089/465/man_wearing_a_tuxedo_x.jpg",
+        "designation": " Lecturer",
+        "qualification": "M.S.C in CSE",
+        "salary": 30000
+    },
+    {
+        "id": 4,
+        "name": "Anika akhter",
+        "age": 30,
+        "img": "https://tse4.mm.bing.net/th?id=OIP.hi7T8NqKImS1oFh0RBk04AAAAA&pid=Api&P=0&w=300&h=300",
+        "designation": "Senior Lecturer",
+        "qualification": "M.S.C in SWE",
+        "salary": 40000
+    },
+    {
+        "id": 5,
+        "name": "Tamanna Himi",
+        "age": 40,
+        "img": "https://thumbs.dreamstime.com/b/passport-photo-young-arabic-woman-isolated-white-background-cut-out-73451979.jpg",
+        "designation": "Proffesor",
+        "qualification": "P.H.D in Mathematics",
+        "salary": 100000
+    },
+    {
+        "id": 6,
+        "name": "Akib Rahman",
+        "age": 30,
+        "img": "http://www.instaloverz.com/wp-content/uploads/2016/08/5-Formal-Men-Fashion.jpg",
+        "designation": "Senior Lecturer",
+        "qualification": "M.S.C in Math",
+        "salary": 10000
+    },
+    {
+        "id": 7,
+        "name": "Sajjad Khan",
+        "age": 30,
+        "img": "https://tse4.mm.bing.net/th?id=OIP.yhr_YcRT_SmiZZwoogS4ugHaJK&pid=Api&P=0&w=300&h=300",
+        "designation": "Assistant Proffesor",
+        "qualification": "M.S.C in Physics",
+        "salary": 30000
+    },
+    {
+        "id": 8,
+        "name": "Samiya Haque",
+        "age": 33,
+        "img": "https://media.istockphoto.com/photos/passport-photo-picture-id504854865?k=6&m=504854865&s=612x612&w=0&h=nLuxhoHicxWhVWRDz8m8md7SaxdvLFh886rz9Ke0t-E=",
+        "designation": "Senior Lecturer",
+        "qualification": "M.S.C in Math",
+        "salary": 350000
+    },
+    {
+        "id": 9,
+        "name": "Habib Khan",
+        "age": 35,
+        "img": "https://tse1.mm.bing.net/th?id=OIP._AHTdOTHpvOJmXdVI_4dJAHaKT&pid=Api&P=0&w=300&h=300",
+        "designation": " Lecturer",
+        "qualification": "B.B.A in Management",
+        "salary": 45000
+    },
+    {
+        "id": 10,
+        "name": "Sumaiya Pias",
+        "age": 39,
+        "img": "https://tse2.mm.bing.net/th?id=OIP.uSm9xPYG0DuANgJHnlWvSwHaLH&pid=Api&P=0&w=300&h=300",
+        "designation": "Senior Lecturer",
+        "qualification": "B.A in English",
+        "salary": 54000
+    },
+    {
+        "id": 11,
+        "name": "Sadiya Mim",
+        "age": 40,
+        "img": "https://3.bp.blogspot.com/-ood4FBJEWFI/V6IBHmpideI/AAAAAAAAKuU/MSLaB9_edBsiylGcyRWR_L1rhBIXJpYgACLcB/s1600/cedb4d258a88dc894cdfc99af88bb3a3.jpg",
+        "designation": " Lecturer",
+        "qualification": "B.B.A in Accounting",
+        "salary": 43000
+    },
+    {
+        "id": 12,
+        "name": "Anika Binte",
+        "age": 50,
+        "img": "https://myseedhospitality.com/wp-content/uploads/2018/01/passport-size-photo-female.jpg",
+        "designation": " Lecturer",
+        "qualification": "M.S.C in Physics",
+        "salary": 19000
+    },
+    {
+        "id": 13,
+        "name": "Taimia Tanha",
+        "age": 50,
+        "img": "https://tse2.mm.bing.net/th?id=OIP.mzgnWb1Th9fRhsSEiZb3FwHaHa&pid=Api&P=0&w=300&h=300",
+        "designation": "Senior Lecturer",
+        "qualification": "M.S.C in Chemistry",
+        "salary": 18000
+    },
+    {
+        "id": 14,
+        "name": "Himan ",
+        "age": 31,
+        "img": "https://3.imimg.com/data3/DX/DE/MY-5891858/formal-wear-500x500.jpg",
+        "designation": "Senior Lecturer",
+        "qualification": "M.S.C in Math",
+        "salary": 10700
+    }
+]
