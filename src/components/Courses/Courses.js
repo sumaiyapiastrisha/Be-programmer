@@ -16,7 +16,7 @@ const Courses = () => {
             {
 
 
-                <Row xs={1} md={4} className=" mx-5 g-4 h-100 m-5 mx-5" >
+                <Row xs={1} md={3} className="  mx-5 g-4 h-100 m-5 mx-5" >
                     {
 
                         courses.map(course => <Course

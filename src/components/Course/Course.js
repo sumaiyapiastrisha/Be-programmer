@@ -10,7 +10,7 @@ const Course = (props) => {
             {
 
                 <Col>
-                    <Card className="h-100 shadow rounded  bg-body rounded">
+                    <Card className=" course h-100 shadow rounded  bg-body rounded">
                         <Card.Img variant="top" src={img} />
                         <Card.Body>
                             <Card.Title className="text-primary">Course name : {name}</Card.Title>
