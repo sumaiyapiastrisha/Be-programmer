@@ -1,12 +1,12 @@
 import React from 'react';
-import './header.css'
+import './Navlink.css'
 import { NavLink } from 'react-router-dom';
 
-const Header = () => {
+const Navlink = () => {
     return (
-        <div className=" d-flex  bg-black p-4  ">
+        <div className=" d-flex   p-4  ">
             <div >
-                <p className="text-whit w-100 h-100">  <span className=" fw-bolder fs-2"> Be</span>  Programmer</p>
+                <p className="text-primary logo">  <span className=" fw-bolder fs-2"> Be</span>  Programmer</p>
             </div >
 
             <div className="nav-item">
@@ -31,7 +31,7 @@ const Header = () => {
                 >
                     About
                 </NavLink>
-                <NavLink className="m-2"
+                <NavLink
                     to="/courses"
                     activeStyle={{
                         fontWeight: "bold",
@@ -42,6 +42,17 @@ const Header = () => {
                 >
                     Courses
                 </NavLink>
+                <NavLink
+                    to="/clientsReview"
+                    activeStyle={{
+                        fontWeight: "bold",
+                        color: "red"
+                    }}
+                    className="route-link"
+
+                >
+                    Clients-Review
+                </NavLink>
 
             </div>
 
@@ -49,4 +60,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Navlink;

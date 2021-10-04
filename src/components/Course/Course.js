@@ -1,6 +1,6 @@
 import React from 'react';
 import './Course.css'
-import { Button, Card, Col } from 'react-bootstrap';
+import { Card, Col } from 'react-bootstrap';
 
 const Course = (props) => {
     console.log(props.course)
@@ -10,19 +10,20 @@ const Course = (props) => {
             {
 
                 <Col>
-                    <Card className="h-100">
+                    <Card className="h-100 shadow rounded  bg-body rounded">
                         <Card.Img variant="top" src={img} />
                         <Card.Body>
-                            <Card.Title>Course : {name}</Card.Title>
+                            <Card.Title className="text-primary">Course name : {name}</Card.Title>
                             <Card.Text>
-                                <h1>Vedio:{vedio}</h1>
-                                <h1> Price : {price}</h1>
+                                <p>Vedio:{vedio}</p>
+                                <b> Price : $ {price}</b>
 
                             </Card.Text>
+                            <button className="  btn-addToCart text-black"> Add to cart</button>
                         </Card.Body>
-                        <Card>
-                            <Button> Add to cart</Button>
-                        </Card>
+
+
+
                     </Card>
                 </Col>
 

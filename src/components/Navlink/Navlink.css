@@ -1,0 +1,20 @@
+.logo{
+    font-size:x-large;
+}
+
+.nav-item {
+    float: right;
+   margin-left: 55%;
+}
+
+.route-link {
+    display: inline-block;
+   text-decoration: none;
+    margin-left: 20px;
+    font-size:x-large;
+    
+   
+}
+.route-link:hover{
+    border-bottom: 2px solid #bf55ec;
+}

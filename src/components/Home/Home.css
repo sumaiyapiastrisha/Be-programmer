@@ -1,14 +1,35 @@
-.header-content{
-    background-image:url('https://th.bing.com/th/id/R.f69b6357181c8310c3a14aa7b802b826?rik=csYtDMx5GumiRg&pid=ImgRaw&r=0');
+.header{
+    background-image:url('http://raera.net/themes/eduzero/files/images/slider-2.jpg');
+    
    height: 100vh;
     background-size: cover;
-    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ; */
+   
 }
-.header-content h1 {
-    top:35%;
-    left: 50%;
-    position: absolute;
-    width: 1180px;
-    transform: translate(-50%,-50%);
 
+.header-content  {
+    top:70%;
+    left: 27%;
+    position: absolute;
+   width: 550px;
+    transform: translate(-50%,-50%);
+   
+   height: 500px;
+   padding-top: 10%;
+ 
+
+}
+.home-course-container{
+  
+    background-color: rgb(247, 253, 253);
+}
+.button{
+    margin-left: 45%;
+    height: 50px;
+    width: 170px;
+    background-color: white;
+    border-radius: 30px;
+    border-color: cyan;
+}
+.button:hover{
+    background-color: cyan;
 }

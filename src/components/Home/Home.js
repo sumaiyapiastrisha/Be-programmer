@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Row } from 'react-bootstrap';
 import useCourses from '../../hooks/useCourses';
@@ -10,16 +11,25 @@ const Home = () => {
     console.log(courses)
     return (
         <div >
-            <div className='header-content' >
-                <h1 className="text-center text-white mt-5">Learn programming with us</h1>
-                <h1 className="text-center text-white mt-5">Learn programming with us</h1>
-                <h1 className="text-center text-white mt-5">Learn programming with us</h1>
+            <div className='header' >
+                <div className="header-content" >
+                    <h1 className="text-wrap text-primary fw-bold">Grave the oppurchunity to <span className=" fw-lighter "> Be programmer</span></h1>
+                    <h4 className="   mt-5">For every student, every classroom.  Real results.
+                    </h4>
+                    <p >We’re a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.</p>
+                </div>
+
 
             </div>
 
-            <div>
+            <div className="home-course-container  px-5">
+                <div className="text-center  pt-5">
+                    <h1 className="text-primary">
+                        Our Courses
+                    </h1>
+                </div>
                 {
-                    <Row xs={1} md={3} className="g-4 h-100 mt-5  mx-5" >
+                    <Row xs={1} md={4} className="g-4  mt-5  mx-5 my-5" >
                         {
                             slicedCourses.map(course => <Course
 
@@ -28,7 +38,14 @@ const Home = () => {
                         }
                     </Row>
                 }
+
             </div>
+            <div>
+                <button className="button mb-5">
+                    See more
+                </button>
+            </div>
+
         </div >
     );
 };

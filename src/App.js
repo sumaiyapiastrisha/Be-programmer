@@ -6,13 +6,16 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Courses from './components/Courses/Courses';
 import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
+
+import NotFound from './components/NotFound/NotFound';
+import ClientsReview from './components/Clients-Review/ClientsReview';
+import Navlink from './components/Navlink/Navlink';
 
 function App() {
   return (
     <div >
       <BrowserRouter>
-        <Header></Header>
+        <Navlink></Navlink>
         <Switch>
           <Route exact path="/">
             <Home></Home>
@@ -26,8 +29,11 @@ function App() {
           <Route path="/courses">
             <Courses></Courses>
           </Route>
-          <Route path="/">
-
+          <Route path="/clientsReview">
+            <ClientsReview></ClientsReview>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>
