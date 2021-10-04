@@ -4,8 +4,10 @@ import { Card, Col } from 'react-bootstrap';
 
 const Course = (props) => {
     console.log(props.course)
+    //destructuring
     const { name, price, vedio, img } = props.course
     return (
+        // course information
         <div className="courseInfo text-center">
             {
 

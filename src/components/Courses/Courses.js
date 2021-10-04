@@ -5,9 +5,11 @@ import useCourses from '../../hooks/useCourses';
 import Course from '../Course/Course';
 
 const Courses = () => {
-    const [courses] = useCourses();
+
+    const [courses] = useCourses();//custom hoooks calling
 
     return (
+        //courses information
         <div className="courses py-5">
             <div>
                 <h1 className=" text-center text-primary">Our Running Courses</h1>

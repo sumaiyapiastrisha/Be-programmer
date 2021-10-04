@@ -5,6 +5,7 @@ import { Card, Col } from 'react-bootstrap';
 const Teacher = (props) => {
     const { name, qualification, img } = props.teacher;
     return (
+        // teacher information
         <div className="teachers-info text-center">
 
             {

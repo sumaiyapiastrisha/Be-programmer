@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 
 const useCourses = () => {
+    // custom Hooks
     const [courses, setCourses] = useState([]);
     useEffect(() => {
         fetch('./courseInfo.JSON')

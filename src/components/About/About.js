@@ -6,6 +6,7 @@ import { Row, Spinner } from 'react-bootstrap';
 import Teacher from '../Teacher/Teacher';
 
 const About = () => {
+    //usehooks========================
     const [teachers, setTeachers] = useState([]);
     useEffect(() => {
         fetch('./teachersInfo.JSON')
@@ -14,6 +15,7 @@ const About = () => {
     }, [])
     return (
         <div>
+            {/* teachers information */}
             <div className="about-teacher py-5">
                 <div className="text-center">
                     <h1 className="py-5 text-primary">Teachers Information</h1>
@@ -33,6 +35,7 @@ const About = () => {
             </div>
 
             <div>
+                {/* AchiveMent information */}
                 <div className="awards-section py-5 text-center ">
                     <div>
                         <h1 className="text-primary">Be programmers Achivement</h1>

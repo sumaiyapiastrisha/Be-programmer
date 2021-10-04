@@ -4,13 +4,14 @@ import { faAddressCard, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-
 import './Footer.css';
 
 const Footer = () => {
-
+    //declare font awesome icons name
     const gmail = <FontAwesomeIcon icon={faEnvelope} />
     const phone = <FontAwesomeIcon icon={faPhone} />
     const address = <FontAwesomeIcon icon={faAddressCard} />
 
     return (
 
+        //footer
         <footer className="text-center bg-secondery text-white pt-5">
             <div >
                 <h3>Contact us</h3>

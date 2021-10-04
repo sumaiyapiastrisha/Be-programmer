@@ -4,11 +4,12 @@ import { NavLink } from 'react-router-dom';
 
 const Navlink = () => {
     return (
+        // logo
         <div className=" d-flex   p-4  ">
             <div >
                 <p className="text-primary logo">  <span className=" fw-bolder fs-2"> Be</span>  Programmer</p>
             </div >
-
+            {/* navigation links */}
             <div className="nav-item">
                 <NavLink
                     to="/home"

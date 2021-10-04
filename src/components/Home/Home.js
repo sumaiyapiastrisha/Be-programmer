@@ -6,11 +6,12 @@ import Course from '../Course/Course';
 
 import './Home.css'
 const Home = () => {
-    const [courses] = useCourses();
+    const [courses] = useCourses();//custom hooks calling
     const slicedCourses = courses.slice(0, 4);
     console.log(courses)
     return (
         <div >
+            {/* header container */}
             <div className='header' >
                 <div className="header-content" >
                     <h1 className="text-wrap text-primary fw-bold">Grave the oppurchunity to <span className=" fw-lighter "> Be programmer</span></h1>
@@ -21,7 +22,7 @@ const Home = () => {
 
 
             </div>
-
+            {/* course container */}
             <div className="home-course-container  px-5">
                 <div className="text-center  pt-5">
                     <h1 className="text-primary">
